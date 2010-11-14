@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+	<head>
+		<title>jQuery.contextComments.js</title>
+		<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="jquery.contextComments.js"></script>
+		<link rel="stylesheet" type="text/css" href="contextComments.css" />
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("body").contextComments();
+			});
+		</script>
+	</head>
+	<body>
+		<h1>Title</h1>
+		<p>Paragraph one. Paragraph one. Paragraph one. Paragraph one. Paragraph one. Paragraph one. Paragraph one. Paragraph one. Paragraph one.</p>
+		<p>Paragraph two. Paragraph two. Paragraph two. Paragraph two. Paragraph two. Paragraph two. Paragraph two. Paragraph two. Paragraph two. Paragraph two. Paragraph two. Paragraph two. Paragraph two.</p>
+		<ul>
+			<li>List #1</li>
+			<li>List #2</li>
+			<li>List #3</li>
+		</ul>
+		<p>Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three. Paragraph three.</p>
+	</body>
+</html>

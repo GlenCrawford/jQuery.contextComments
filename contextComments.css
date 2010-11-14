@@ -1,0 +1,25 @@
+.commentIcon { background-image:url("commentIcon.png"); background-repeat:no-repeat; width:17px; height:14px; float:left; margin-top:2px; padding:3px; display:inline-block; outline-style:none; }
+.elementHover { background-color:#33CCFF; }
+.contextCommentRound { border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; }
+.contextCommentTransparent { opacity:0.8; filter:alpha(opacity=80); }
+.contextCommentLoading { background-image:url("loading.gif"); background-repeat:no-repeat; display:inline-block; width:27px; height:22px; vertical-align:middle; margin:-4px 0 0 5px; }
+#commentOverlay { position:absolute; width:100%; height:100%; top:0; left:0; background-color:#000000; z-index:98; }
+#commentBox { width:700px; position:fixed; top:80px; left:50%; margin-left:-350px; padding:10px; display:block; z-index:99; border:10px solid #525252; background-color:#ffffff; font-family:Georgia,Tahoma,Verdana,sans-serif; font-size:1em; }
+#commentBox a { color:#3B5998; text-decoration:none; outline-style:none; }
+#commentBox a:hover { text-decoration:underline; }
+#commentBox #commentBoxHeader { font-size:1.5em; }
+#commentBox #commentBoxBody { overflow-y:auto; height:350px; }
+#commentBox #commentBoxBody .commentContainer { border-bottom:1px solid #eeeeee; padding:5px 0; }
+#commentBox #commentBoxBody .commentContainer:hover { background-color:#f7f7f7; }
+#commentBox #commentBoxBody .commentContainer .commentContainerDetails { font-size:0.8em; }
+#commentBox #commentBoxFooter { border-top:1px solid #dddddd; margin-top:10px; padding-top:10px; }
+#commentBox #commentBoxFooter #closeCommentBox { background-image:url("close.gif"); background-repeat:no-repeat; width:66px; height:17px; outline-style:none; float:right; }
+#commentBox #commentBoxFooter .addComment { float:left; }
+#commentBox #commentBoxBody #addCommentForm { margin-top:5px; }
+#commentBox #commentBoxBody #submitResult { padding:5px 0; border-style:solid; border-color:#dddddd; border-width:1px 0; }
+#commentBox #commentBoxBody #addCommentForm #validationMessages { background-color:#ffb3b3; border:1px dashed #d40109; margin:0 0 9px 0; padding:5px; width:660px; list-style-type:none; }
+#commentBox #commentBoxBody #addCommentForm #validationMessages li { padding-left:7px; }
+#commentBox #commentBoxBody #addCommentForm #validationMessages li:first-child { padding-left:0; font-style:italic; }
+#commentBox #commentBoxBody #addCommentForm #contextCommentForm p #contextCommentForm_authorName { width:180px; }
+#commentBox #commentBoxBody #addCommentForm #contextCommentForm p { margin:0 0 4px 0; }
+#commentBox #commentBoxBody #addCommentForm #contextCommentForm p label { width:5em; float:left; margin-right:0.5em; }
